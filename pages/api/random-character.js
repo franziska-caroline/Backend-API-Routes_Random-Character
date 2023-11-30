@@ -10,5 +10,5 @@ export default function handler(request, response) {
     profession: chance.profession(),
   };
 
-  return response.status(200).json({ character });
+  return response.status(200).json(character);
 }
